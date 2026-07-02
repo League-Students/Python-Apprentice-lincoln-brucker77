@@ -23,7 +23,8 @@ for i in range (4)
 
     forward = f 
     left = l
-    
+    turtle.f(50)
+    turtle.l(90)
 
 turtle.exitonclick()                    # Close the window when we click on it
 
