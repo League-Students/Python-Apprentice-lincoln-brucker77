@@ -25,7 +25,7 @@ for i in range (4):
     left = 90
     turtle.forward (f)
     turtle.left(left)
-turtle.create 
+turtle.circle(200)
 
 turtle.exitonclick()                    # Close the window when we click on it
 
