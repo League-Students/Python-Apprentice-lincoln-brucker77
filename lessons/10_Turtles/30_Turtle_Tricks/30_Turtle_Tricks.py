@@ -26,6 +26,7 @@ for i in range (4):
     turtle.forward (f)
     turtle.left(left)
 
+
 turtle.exitonclick()                    # Close the window when we click on it
 
 # Save your progress by checking in your code.
