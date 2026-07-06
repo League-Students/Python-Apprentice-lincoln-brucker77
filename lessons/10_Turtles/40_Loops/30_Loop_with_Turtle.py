@@ -14,7 +14,7 @@ name: Loop With Turtle
 """
 
 ... # Your code here
-import 
+import.(turtle)
 for i in range (4):
 
     f = 50
