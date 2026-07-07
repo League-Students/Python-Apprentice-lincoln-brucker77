@@ -15,7 +15,7 @@ name: Loop With Turtle
 
 ... # Your code here
 import turtle
-for i in range 94
+for i in range (4)
 for i in range (4):
 
     f = 50
