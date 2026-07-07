@@ -23,6 +23,6 @@ for i in range (10000):
 
     turtle.forward(f)
     turtle.left(left)
-    turtle.forward (3)
-    turtle.left (1)
+    turtle.forward (1000)
+    turtle.left (1000)
     turtle.circle(150)
