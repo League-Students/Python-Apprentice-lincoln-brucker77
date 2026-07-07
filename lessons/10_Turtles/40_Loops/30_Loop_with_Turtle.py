@@ -15,11 +15,13 @@ name: Loop With Turtle
 
 ... # Your code here
 import turtle
+for i in range 94
 for i in range (4):
 
     f = 50
     left = 90
     turtle.forward(f)
     turtle.left(left)
-    turtle.left (1)
+
+turtle.forward (1)
 turtle.circle(150)
