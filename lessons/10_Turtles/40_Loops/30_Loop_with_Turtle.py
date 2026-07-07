@@ -14,11 +14,12 @@ name: Loop With Turtle
 """
 
 ... # Your code here
-import.(turtle)
+import turtle
 for i in range (4):
 
     f = 50
     left = 90
     turtle.forward(f)
     turtle.left(left)
+    turtle.left ()
 turtle.circle(150)
