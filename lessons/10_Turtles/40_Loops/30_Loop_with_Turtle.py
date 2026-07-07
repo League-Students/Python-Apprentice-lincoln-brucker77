@@ -15,7 +15,8 @@ name: Loop With Turtle
 
 ... # Your code here
 import turtle
-for i in range (1000):
+turtle.speed(0)
+for i in range (10000):
 
     f = 50
     left = 90
