@@ -24,5 +24,5 @@ for i in range (10000):
     turtle.forward(f)
     turtle.left(left)
     turtle.forward (50)
-    turtle.left (1)
+    turtle.left (0.1)
     turtle.circle(150)
