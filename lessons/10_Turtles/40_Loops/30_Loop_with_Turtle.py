@@ -18,8 +18,8 @@ import turtle
 turtle.speed(0)
 for i in range (10000):
 
-    f = 50
-    left = 90
+    f = 0
+    left = 1
 
     turtle.forward(f)
     turtle.left(left)
