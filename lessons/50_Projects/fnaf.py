@@ -34,6 +34,7 @@ def exit_cam():
     print("office")
     screen.bgcolor(cam_colors["white"])
 
+exit_cam()
 
 screen.listen()
 screen.onkey(open_cam_1, "1")
