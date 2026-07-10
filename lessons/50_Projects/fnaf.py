@@ -37,7 +37,7 @@ def open_cam_4():
 def open_cam_5():
     print("cam 5 open")
     screen.bgcolor(cam_colors[4])
-    
+    show_anamtronics(5)
 def exit_cam():
     print("office")
     screen.bgcolor("white")
