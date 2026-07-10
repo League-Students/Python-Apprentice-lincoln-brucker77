@@ -12,7 +12,9 @@ tina_progress = 0
 screen = turtle.screen()
 cam_colors = ["red","black","purple","blue","green"]
 
-def show_anamtronics(cam_num)
+def show_anamtronics(cam_num):
+    #tina show
+    if(cam_num ==)
 def open_cam_1():
     print("cam 1 open")
     screen.bgcolor(cam_colors[0])
