@@ -9,13 +9,15 @@ tina_path = [1,2,3,4,5,]
 tina_progress = 0
 
 
-screen = turtle.screen()
+screen = turtle.Screen()
 cam_colors = ["red","black","purple","blue","green"]
 
 def show_anamtronics(cam_num):
     #tina show
     if(cam_num == tina_path[tina_progress]):
-        tina.show
+        tina.showturtle()
+    else:
+        tina.hideturtle()
 def open_cam_1():
     print("cam 1 open")
     screen.bgcolor(cam_colors[0])
