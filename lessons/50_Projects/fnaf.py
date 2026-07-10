@@ -10,7 +10,7 @@ tina_progress = 0
 
 
 screen = turtle.Screen()
-cam_colors = ["red","black","purple","blue","green"]
+cam_colors = ["red","cyan","purple","blue","green"]
 
 def show_anamtronics(cam_num):
     #tina show
