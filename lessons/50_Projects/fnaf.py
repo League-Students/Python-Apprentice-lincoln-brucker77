@@ -43,15 +43,20 @@ def open_cam_3():
     print("cam 3 open")
     screen.bgcolor(cam_colors[2])
     show_anamtronics()
-    
+    global cam_num
+    cam_num = 3
 def open_cam_4():
     print("cam 4 open")
     screen.bgcolor(cam_colors[3])
     show_anamtronics()
+    global cam_num
+    cam_num = 4
 def open_cam_5():
     print("cam 5 open")
     screen.bgcolor(cam_colors[4])
     show_anamtronics()
+    global cam_num
+    cam_num = 5
 def exit_cam():
     print("office")
     screen.bgcolor("white")
@@ -65,7 +70,5 @@ screen.onkey(open_cam_3, "3")
 screen.onkey(open_cam_4, "4")
 screen.onkey(open_cam_5, "5")
 screen.onkey(exit_cam, "0")
-
-screen.ontimer(move_tina,after,2000)
 
 turtle.exitonclick()
