@@ -5,7 +5,7 @@ tina = turtle.Turtle()
 screen = turtle.Screen()
 screen.setup(500,500)
 tina.shape("turtle")
-
+tina
 cam_colors = ["red","black","purple","blue","green"]
 
 def open_cam_1():
