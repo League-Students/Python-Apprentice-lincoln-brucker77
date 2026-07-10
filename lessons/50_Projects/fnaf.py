@@ -12,6 +12,7 @@ tina_progress = 0
 screen = turtle.Screen()
 cam_colors = ["red","cyan","purple","blue","green"]
 
+def
 def show_anamtronics(cam_num):
     #tina show
     if(cam_num == tina_path[tina_progress]):
