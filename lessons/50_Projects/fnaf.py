@@ -7,7 +7,7 @@ screen.setup(500,500)
 tina.shape("turtle")
 tina_path = [1,2,3,4,5,0]
 tina_progress = 0
-
+cam
 
 screen = turtle.Screen()
 cam_colors = ["red","cyan","purple","blue","green"]
