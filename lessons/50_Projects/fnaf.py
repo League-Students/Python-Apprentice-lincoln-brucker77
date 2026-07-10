@@ -23,7 +23,7 @@ def move_tina():
     global tina_progress
     tina_progress +=1
     show_anamtronics()
-    screen.ontimer(move_tina,2000)
+    screen.ontimer(move_tina,5000)
     print("tina moved")
     
 
@@ -79,6 +79,6 @@ screen.onkey(open_cam_4, "4")
 screen.onkey(open_cam_5, "5")
 screen.onkey(exit_cam, "0")
 screen.onkey(scare_tina," ")
-screen.ontimer(move_tina,2000)
+screen.ontimer(move_tina,6000)
 
 turtle.exitonclick()
