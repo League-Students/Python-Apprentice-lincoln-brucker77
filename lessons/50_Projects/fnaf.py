@@ -38,11 +38,12 @@ def open_cam_2():
     screen.bgcolor(cam_colors[1])
     show_anamtronics()
     global cam_num
-    cam_num = 1
+    cam_num = 2
 def open_cam_3():
     print("cam 3 open")
     screen.bgcolor(cam_colors[2])
     show_anamtronics()
+    
 def open_cam_4():
     print("cam 4 open")
     screen.bgcolor(cam_colors[3])
