@@ -14,7 +14,7 @@ cam_colors = ["red","black","purple","blue","green"]
 
 def show_anamtronics(cam_num):
     #tina show
-    if(cam_num ==)
+    if(cam_num == tina)
 def open_cam_1():
     print("cam 1 open")
     screen.bgcolor(cam_colors[0])
