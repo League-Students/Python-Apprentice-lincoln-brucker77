@@ -5,7 +5,7 @@ tina = turtle.Turtle()
 screen = turtle.Screen()
 screen.setup(500,500)
 tina.shape("turtle")
-tina_path = [1,2,3,4,5,]
+tina_path = [1,2,3,4,5,0]
 tina_progress = 0
 
 
@@ -71,4 +71,5 @@ screen.onkey(open_cam_4, "4")
 screen.onkey(open_cam_5, "5")
 screen.onkey(exit_cam, "0")
 
+if tina
 turtle.exitonclick()
