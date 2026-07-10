@@ -25,7 +25,7 @@ def open_cam_5():
     screen.bgcolor(cam_colors[4])
 def exit_cam():
     print("office")
-    screen.bgcolor(cam_colors[5])
+    screen.bgcolor(cam_colors[])
 
 
 screen.listen()
