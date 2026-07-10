@@ -15,7 +15,7 @@ cam_colors = ["red","cyan","purple","blue","green"]
 def scare_tina()
     global tina_progress
     global cam_num
-    if tina_progrerss == len(tina)
+    if tina_progrerss == len(tina_path)
 def move_tina():
     global tina_progress
     tina_progress +=1
