@@ -14,9 +14,10 @@ cam_colors = ["red","cyan","purple","blue","green"]
 
 def move_tina():
     global tina.progress
-    tina progress += 1
-
+    tina progress +=1
+    show_anamtronics()
     screen.ontimer(move_tina,2000)
+    print("tina moved")
     
 
 def show_anamtronics(cam_num):
