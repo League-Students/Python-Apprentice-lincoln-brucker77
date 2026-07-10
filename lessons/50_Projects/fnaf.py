@@ -13,7 +13,7 @@ screen = turtle.Screen()
 cam_colors = ["red","cyan","purple","blue","green"]
 
 def move_tina():
-    globale tina
+    global tina.progress
     tina progress += 1
 
     screen.ontimer(move_tina,2000)
