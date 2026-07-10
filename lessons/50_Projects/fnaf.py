@@ -21,18 +21,23 @@ def show_anamtronics(cam_num):
 def open_cam_1():
     print("cam 1 open")
     screen.bgcolor(cam_colors[0])
+    show_anamtronics(1)
 def open_cam_2():
     print("cam 2 open")
     screen.bgcolor(cam_colors[1])
+    show_anamtronics(2)
 def open_cam_3():
     print("cam 3 open")
     screen.bgcolor(cam_colors[2])
+    show_anamtronics(3)
 def open_cam_4():
     print("cam 4 open")
     screen.bgcolor(cam_colors[3])
+    show_anamtronics(4)
 def open_cam_5():
     print("cam 5 open")
     screen.bgcolor(cam_colors[4])
+    
 def exit_cam():
     print("office")
     screen.bgcolor("white")
