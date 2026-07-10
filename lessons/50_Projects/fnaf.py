@@ -16,6 +16,7 @@ def scare_tina()
     global tina_progress
     global cam_num
     if tina_progrerss == len(tina_path)-1 and cam_num == 0:
+        tina
 def move_tina():
     global tina_progress
     tina_progress +=1
