@@ -12,7 +12,9 @@ tina_progress = 0
 screen = turtle.Screen()
 cam_colors = ["red","cyan","purple","blue","green"]
 
-def scare
+def scare_tina()
+    global tina_progress
+    global cam_num
 def move_tina():
     global tina_progress
     tina_progress +=1
