@@ -42,11 +42,11 @@ def open_cam_3():
 def open_cam_4():
     print("cam 4 open")
     screen.bgcolor(cam_colors[3])
-    show_anamtronics(4)
+    show_anamtronics()
 def open_cam_5():
     print("cam 5 open")
     screen.bgcolor(cam_colors[4])
-    show_anamtronics(5)
+    show_anamtronics()
 def exit_cam():
     print("office")
     screen.bgcolor("white")
