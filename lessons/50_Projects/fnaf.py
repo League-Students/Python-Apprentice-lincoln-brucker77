@@ -21,6 +21,7 @@ def move_tina():
     
 
 def show_anamtronics(cam_num):
+    global
     #tina show
     if(cam_num == tina_path[tina_progress]):
         tina.showturtle()
