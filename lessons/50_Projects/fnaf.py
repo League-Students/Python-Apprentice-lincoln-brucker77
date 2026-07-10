@@ -12,6 +12,7 @@ tina_progress = 0
 screen = turtle.Screen()
 cam_colors = ["red","cyan","purple","blue","green"]
 
+def scare
 def move_tina():
     global tina_progress
     tina_progress +=1
@@ -71,7 +72,7 @@ screen.onkey(open_cam_3, "3")
 screen.onkey(open_cam_4, "4")
 screen.onkey(open_cam_5, "5")
 screen.onkey(exit_cam, "0")
-
+screen.onkey(scare_tina)
 screen.ontimer(move_tina,2000)
 
 turtle.exitonclick()
