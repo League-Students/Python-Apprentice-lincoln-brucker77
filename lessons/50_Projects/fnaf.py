@@ -51,7 +51,7 @@ screen.onkey(open_cam_3, "3")
 screen.onkey(open_cam_4, "4")
 screen.onkey(open_cam_5, "5")
 screen.onkey(exit_cam, "0")
-while true:
-    time.
-    tina_progress += 1
+
+screen.ontimer
+
 turtle.exitonclick()
