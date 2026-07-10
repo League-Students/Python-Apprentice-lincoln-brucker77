@@ -16,8 +16,8 @@ def scare_tina():
     global tina_progress
     global cam_num
     if tina_progrerss == len(tina_path)-1 and cam_num == 0:
-    tina_progress = 0
-    print ("AHHHH")
+        tina_progress = 0
+        print ("AHHHH")
 
 def move_tina():
     global tina_progress
@@ -78,7 +78,7 @@ screen.onkey(open_cam_3, "3")
 screen.onkey(open_cam_4, "4")
 screen.onkey(open_cam_5, "5")
 screen.onkey(exit_cam, "0")
-screen.onkey(scare_tina)
+screen.onkey(scare_tina," ")
 screen.ontimer(move_tina,2000)
 
 turtle.exitonclick()
