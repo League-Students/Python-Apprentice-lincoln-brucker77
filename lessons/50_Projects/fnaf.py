@@ -24,6 +24,7 @@ def show_anamtronics():
     global cam_num
     #tina show
     if(cam_num == tina_path[tina_progress]):
+        print("GAME OVER")
         tina.showturtle()
     else:
         tina.hideturtle()
@@ -71,6 +72,6 @@ screen.onkey(open_cam_4, "4")
 screen.onkey(open_cam_5, "5")
 screen.onkey(exit_cam, "0")
 
- screen.ontimer(move_tina,2000)
+screen.ontimer(move_tina,2000)
 
 turtle.exitonclick()
